@@ -102,3 +102,6 @@ input, textarea{
 input:focus, textarea:focus{
     box-shadow: 0 2px 5px #627a94 inset, 0 0px 4px 2px white;
 }
+input[type="checkbox"]:focus + label::before {
+  box-shadow: 0 0px 4px 2px white;
+}
