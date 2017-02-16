@@ -11,7 +11,7 @@ $body = "Name: ".$name;
 $body .= "\nEmail: ".$email;
 $body .= "\nMessage: ".$message;
 
-$success = mail($recipient, "message from sitename site", $body, "From: ".$email_from);
+$success = 1; //mail($recipient, "message from sitename site", $body, "From: ".$email_from);
 
 if ($success){
     echo "message sent!";
